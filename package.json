@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "travelx-vip",
+  "scripts": {
+    "android": "cd apps/mobile && react-native run-android",
+    "ios": "cd apps/mobile && react-native run-ios",
+    "web": "cd apps/web && npm run dev",
+    "pinstall": "npm install && cd apps/mobile/ios && pod install",
+    "openxcode": "open apps/mobile/ios/mobile.xcworkspace",
+    "openandroidstudio": " open -a 'Android Studio' apps/mobile/android"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages"
+  ]
+}
